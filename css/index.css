@@ -1,0 +1,237 @@
+/*html5*/
+main,article,aside,footer,header,section,footer,nav,figure{display:block}
+
+*{
+	padding: 0;
+	margin: 0;
+	border:0;
+}
+
+body{
+	background-color: #FFF;
+	font-size: 18px; 
+	font-family: 微软雅黑,Verdana,Arial,sans-serif;
+	color:#333;
+	min-width: 1000px;
+}
+
+ul{
+	list-style-type:none;
+}
+
+.top-header{
+	height: 60px;
+	/* background-color: #161417; */
+	background-color: rgba(0,0,0,0.4);
+}
+
+.top-icon{
+	float: left;
+	margin: 7px 0px 0px 20px;
+	width: 150px;
+	height: 47px;
+}
+
+.top-time{
+	float: right;
+	padding: 10px 20px;
+	color: #FFF;
+	font-size: 28px;
+	letter-spacing:2px;
+}
+
+.main{
+	height: 660px;
+}
+
+.box{
+	border-radius: 15px;
+	/* background-color: #030303;		 */ 
+	background-color: rgba(0,0,0,0.3);
+	float: left;	
+}
+
+.box .box-title{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding:5px 0px;
+	display: block;
+	color: #FFF;
+	border-bottom:1px solid transparent;
+	border-image:url(../images/border-bottom.png) 30 30 stretch;
+	-moz-border-image:url(../images/border-bottom.png) 30 30 stretch;
+	-webkit-border-image:url(../images/border-bottom.png) 30 30 stretch;
+	-o-border-image:url(../images/border-bottom.png) 30 30 stretch;
+}
+
+.box span{
+	color: #FFF;
+	font-size: 34px;
+	line-height: 100px;
+}
+
+.box .box-body{
+
+}
+
+.box .box-main-linechart{
+	height: 123px;
+}
+
+.box .box-main-zxchart{
+	height: 123px;
+}
+
+.box .box-main-barchart{
+	height: 468px;
+}
+
+.map{
+	width: 695px;
+	height: 505.5px;
+	margin: 5px 0px 0px 10px;
+}
+
+.today-Department-SignMoney{
+	width: 217.4px;
+	height: 505.5px;
+	margin: 5px 0px 0px 5px;
+}
+
+.today-Product-SignMoney{
+	width: 337.6px;
+	height: 157.5px;
+	margin: 5px 10px 0px 0px;
+}
+
+.hour-SignMoney{
+	width: 337.6px;
+	height: 157.5px;
+	margin: 5px 10px 0px 0px;
+}
+
+.hour-ApplyQuantity{
+	width: 337.6px;
+	height: 157.5px;
+	margin: 5px 10px 0px 0px;
+}
+
+.hour-ApproveMoney{
+	width: 337.6px;
+	height: 160.5px;
+	margin: 5px 10px 0px 0px;
+}
+
+.totalSignMoney{
+	width: 225.6px;
+	height: 137.5px;
+	margin: 5px 0px 0px 10px;
+}
+
+.totalSignUser{
+	width: 225.6px;
+	height: 137.5px;
+	margin: 5px 0px 0px 5px;
+}
+
+.totalApplyTotal{
+	width: 225.6px;
+	height: 137.5px;
+	margin: 5px 0px 0px 5px;
+}
+
+.totalPassTotal{
+	width: 225.6px;
+	height: 137.5px;
+	margin: 5px 0px 0px 5px;
+}
+
+.map-main{
+	position: relative;
+	height: 470.5px;
+}
+
+.todayBorrowerDetail{
+	width: 226px;
+	height: 138px;
+	background-color: rgba(36,35,40,0.7);
+	position: absolute;
+	right: 10px;top: 10px;
+	overflow:hidden;
+}
+
+.todayBorrowerDetailWrap{
+	position: absolute;			
+}
+
+.todayBorrowerDetail label{
+	font-size: 12px;
+	color: #FFF;
+	display:inline-block;
+	text-align: left;
+	padding: 5px 8px 0px 8px;
+}
+
+.todayLoanMoney{
+	width: 226px;
+	height: 118px;
+	position: absolute;
+	right: 10px;bottom: 138px;
+	/*background-color: #141412;*/
+}
+
+.monthLoanMoney{
+	width: 226px;
+	height: 118px;
+	position: absolute;
+	right: 10px;bottom: 10px;
+	/*background-color: #141412;*/
+}
+
+.totalDepartmentTitle{
+	background-color: rgba(36, 35, 40, 0.1);
+	color: #fff;
+	height: 40px;
+	left: 130px;
+	line-height: 35px;
+	position: absolute;
+	text-align: center;
+	top: 25px;
+	width: 180px;
+}
+.totalDepartmentTitle label{
+	color: #FF0000;
+	font-size: 24px;
+}
+
+
+.map-chart{
+	height: 453px;
+	width: 464px;
+}
+
+
+.text-center{
+	text-align: center;
+}
+
+.float-right{
+	float: right;
+}
+
+.box-title-style-padding{
+	padding-left: 20px !important;
+}
+
+
+.errorDialog{
+	text-align: center;
+	line-height: 60px;
+	color: #FFF;
+	font-size: 24px;
+	position: fixed;
+	left: 0px;top: 660px;
+	height: 60px;width: 1280px;
+	background-color: rgba(255,0,0,0.4);
+	display: none;
+}

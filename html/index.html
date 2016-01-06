@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html language="en">
+<head>
+	<meta charset="utf-8">
+	<title>实时数据展示</title>
+	<link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+	<div style="background: url('http://img4.duitang.com/uploads/item/201407/13/20140713121632_HVK8N.jpeg') no-repeat scroll center center; 
+	background-size:100%;width:1280px;height:720px;">
+		<header class="top-header">
+			<img src="../images/logo_w.png" class="top-icon">
+			<label class="top-time">2015年12月18日 13:11:11</label>
+		</header>
+		<main class="main">
+			<section class="box map">
+				<label class="box-title box-title-style-padding">全国营业网点</label>
+				<div class="map-main">
+					<div class="map-chart" id="map_id">
+					</div>
+					<div class="totalDepartmentTitle">累计营业部<label for="">100</label>家</div>
+					<div class="todayBorrowerDetail text-center box">
+						<div class="todayBorrowerDetailWrap"><label></label></div>
+					</div>
+					<div class="todayLoanMoney text-center box">
+						<label class="box-title">今日总签约(万)</label>
+						<span><small>￥</small>0</span>
+					</div>
+					<div class="monthLoanMoney text-center box">
+						<label class="box-title">本月总签约(万)</label>
+						<span><small>￥</small>0</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="box today-Department-SignMoney">
+				<label class="box-title box-title-style-padding">今日营业部签约金额(万)</label>
+				<div class="box-main box-main-barchart" id="today_department_signMoney_id">
+				</div>
+			</section>		
+
+			<section class="box today-Product-SignMoney float-right">
+				<label class="box-title box-title-style-padding">今日产品签约金额(万)</label>
+				<div class="box-main box-main-zxchart" id="today_product_signMoney_id">
+				</div>
+			</section>
+
+			<section class="box hour-SignMoney float-right">
+				<label class="box-title box-title-style-padding">每小时签约金额(万)</label>
+				<div class="box-main box-main-linechart" id="hour_signMoney_id">
+				</div>
+			</section>
+
+			<section class="box hour-ApplyQuantity float-right">
+				<label class="box-title box-title-style-padding">每小时申请量(位)</label>
+				<div class="box-main box-main-linechart" id="hour_applyQuantity_id">
+				</div>
+			</section>
+
+			<section class="box hour-ApproveMoney float-right">
+				<label class="box-title box-title-style-padding">每小时审批金额(万)</label>
+				<div class="box-main box-main-linechart" id="hour_approveMoney_id">
+				</div>
+			</section>
+
+			<section class="box text-center totalSignMoney">
+				<label class="box-title">累计签约总额(万)</label>
+				<span><small>￥</small>0</span>
+			</section>
+
+			<section class="box text-center totalSignUser">
+				<label class="box-title">累计签约客户数(位)</label>
+				<span>0</span>
+			</section>
+
+			<section class="box text-center totalApplyTotal">
+				<label class="box-title">累计申请总数(位)</label>
+				<span>0</span>
+			</section>
+
+			<section class="box text-center totalPassTotal">
+				<label class="box-title">累计通过总数(位)</label>
+				<span>0</span>
+			</section>
+		</main>
+	</div>
+
+	<div class="errorDialog">获取实时数据失败！</div>
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<!-- <script type="text/javascript" src="../js/marquee.js"></script> -->
+	<script type="text/javascript" src="../plugins/echarts/echarts.js"></script>
+	<script type="text/javascript" src="../js/tv.js"></script>
+	
+</body>
+</html>
