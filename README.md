@@ -7,8 +7,6 @@
 实时机制：前端定时ajax查询<br/>
 
 界面效果：
-<img src="http://linmuxi.github.io/phly/screenshot/realtimeData/realtimeData_2016010601.jpg"/>
-获取异常
-<img src="http://linmuxi.github.io/phly/screenshot/realtimeData/realtimeData_2016010602.jpg"/>
+<img src="http://7xqlat.com1.z0.glb.clouddn.com/android_tv_realtime.png"/>
 
 PS:由于是嵌套在webview上显示,很多效果都无法和pc端效果媲美，例如echarts会出现重影的问题，动画效果显示会出现卡顿或不显示的问题等等。
